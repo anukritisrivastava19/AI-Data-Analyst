@@ -1,87 +1,99 @@
-# 📊 AI Data Analyst — Chat With Your CSV
+# 🤖 AI Data Analyst – Chat With Your CSV
 
-<p align="center">
-  🚀 <b>Ask Questions • Analyze Data • Get Insights</b> 🚀
-</p>
-
-<p align="center">
-  An AI-powered data analytics application that lets you upload CSV files,
-  analyze datasets, create visualizations, and ask questions in natural language.
-</p>
+> **An AI-powered data analysis application that lets you upload a CSV file, explore your dataset, visualize data, ask questions in natural language, and generate AI-powered insights.**
 
 ---
 
-## 🌟 About The Project
+## 🌟 Overview
 
-**AI Data Analyst — Chat With Your CSV** is a web-based data analysis application built using **Python and Streamlit**.
+**AI Data Analyst – Chat With Your CSV** is a Streamlit-based data analysis application designed to make data analysis easier for users who may not be comfortable writing code.
 
-Users can simply upload a CSV file and explore their data without manually writing complex analysis code.
+Users can upload a CSV dataset and perform different types of analysis through a simple and interactive interface.
 
-The application combines:
+The application combines **Python, Pandas, Streamlit, and Generative AI (Gemini)** to provide both traditional data analysis and natural-language interaction with datasets.
 
-🐍 Python  
-📊 Data Analytics  
-📈 Visualization  
-🤖 Artificial Intelligence  
-💬 Natural Language Queries  
+Instead of manually writing Python code for every analysis, users can interact with their data through a user-friendly interface and ask questions in plain English.
 
 ---
 
 ## ✨ Features
 
-📂 **CSV Upload**  
-Upload your dataset directly into the application.
+### 📂 CSV Upload
+- Upload CSV datasets directly through the application.
+- Automatically load the dataset using Pandas.
 
-👀 **Dataset Preview**  
-View rows, columns, data types, and basic dataset information.
+### 👀 Dataset Preview
+- View the first 10 rows of the dataset.
+- View number of rows and columns.
+- View column names.
+- View column data types.
 
-🧹 **Data Cleaning**  
-Detect missing values and duplicate records and perform basic cleaning.
+### 🧹 Data Cleaning
+- Handle missing values.
+- Remove duplicate records.
+- Perform basic data type conversion.
+- Prepare the dataset for analysis.
 
-📊 **Data Analysis**  
-Generate statistical summaries and analyze numerical and categorical data.
+### 📊 Data Summary & Statistics
+- Number of rows and columns.
+- Numerical column analysis.
+- Descriptive statistics.
+- Categorical data information.
+- Missing-value analysis.
+- Correlation analysis.
 
-📈 **Data Visualization**  
-Create charts to understand patterns, trends, and relationships.
+### 📈 Data Visualization
+Generate visual representations of the dataset using charts such as:
 
-💬 **Natural Language Queries**  
-Ask questions about your dataset using simple English.
+- 📊 Bar Chart
+- 📈 Line Chart
+- 🥧 Pie Chart
+- 🔵 Scatter Plot
+- 📉 Histogram
 
-🧠 **AI Insights**  
-Get AI-generated insights and findings from your data.
+### 💬 Natural Language Questions
+Users can ask questions about their dataset using natural language.
 
-📑 **Report Export**  
-Save and export analysis results and visualizations.
+Example:
 
----
+> "What is the average age?"
 
-## 🛠️ Tech Stack
+> "What is the maximum fare?"
 
-| 🧩 Technology | 🎯 Purpose |
-|---|---|
-| 🐍 Python | Core programming |
-| 🎨 Streamlit | Web application |
-| 🐼 Pandas | Data processing & analysis |
-| 📊 Plotly | Data visualization |
-| 🤖 Gemini / OpenAI / Groq | AI-powered analysis |
+> "How many passengers are there?"
 
----
+The application processes the question and provides an understandable response.
 
-## 🔄 Project Workflow
+### 🤖 AI-Powered Insights
+The application uses Gemini to interpret calculated dataset information and generate meaningful insights such as:
+
+- Important patterns
+- Highest and lowest values
+- Common categories
+- Trends
+- Comparisons
+- Interesting observations
+
+
+## 🔄 How It Works
 
 ```text
         📂 Upload CSV
               ↓
-        👀 Preview Data
+        👀 Preview Dataset
               ↓
          🧹 Clean Data
               ↓
-      📊 Analyze Dataset
+       📊 Analyze Dataset
               ↓
-       📈 Create Charts
+        📈 Create Charts
               ↓
-          💬 Ask AI
+      💬 Ask Questions
               ↓
-       🧠 Get Insights
+        🤖 AI Analysis
               ↓
-          📑 Export
+      💡 Generate Insights
+
+
+
+      
